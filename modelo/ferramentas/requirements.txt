@@ -1,0 +1,18 @@
+# Ferramentas Python do estudio-reels (motion/ferramentas/). Não instale à mão: rode da raiz
+# do repositório
+#     python motion/ferramentas/instalar.py                 (cria motion/.venv e instala tudo)
+#     python motion/ferramentas/instalar.py --sem-modelos   (sem torch, torchaudio e whisper.cpp)
+#
+# O instalar.py instala torch e torchaudio à parte, do índice CPU do PyTorch
+# (https://download.pytorch.org/whl/cpu). No Windows e no macOS o torch do PyPI já é CPU e o
+# índice é opcional; no Linux ele importa: o do PyPI traz CUDA (+2 GB).
+#
+# Teto de versão do torch: validado com 2.10.0+cpu (torchaudio.functional.forced_align e
+# torchaudio.pipelines.MMS_FA, usados pelo alinhar_forcado.py). O torchaudio está em modo de
+# manutenção e vem removendo APIs: confira as duas numa versão nova antes de subir o teto.
+numpy>=1.24
+pillow>=10.0
+opencv-python-headless>=4.8
+pytest>=7.0
+torch>=2.1,<2.11
+torchaudio>=2.1,<2.11

@@ -1,0 +1,37 @@
+{
+  "name": "motion-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motor de motion de colagem narrado (semente estudio-reels): Reel 9:16 em codigo, camera 2.5D, legenda A/B, tempos da narracao.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "tsc": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.530",
+    "@remotion/captions": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/fonts": "4.0.530",
+    "@remotion/install-whisper-cpp": "4.0.530",
+    "@remotion/media": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "@remotion/transitions": "4.0.530",
+    "pngjs": "7.0.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.530",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "@types/pngjs": "6.0.5",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.2"
+  }
+}

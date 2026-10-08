@@ -1,0 +1,15 @@
+{
+  "marca": "Marca Exemplo",
+  "slug": "marca-exemplo",
+  "idioma": "pt-BR",
+  "cores": {"escuro": "#121417", "claro": "#F3F3F0", "profundo": "#2A3038", "acento": "#3E7BDA", "apoio": "#6B7480"},
+  "fontes": {
+    "manchete": {"familia": "Archivo Black", "arquivo": null, "peso": 400},
+    "corpo": {"familia": "Inter", "arquivo": null, "peso": 700},
+    "dado": {"familia": "IBM Plex Mono", "arquivo": null, "peso": 500}
+  },
+  "logo": {"sobre_claro": null, "sobre_escuro": null},
+  "voz": {"plataforma": "elevenlabs", "nome": null, "modelo": "v4"},
+  "exemplo": true,
+  "_nota": "Identidade de EXEMPLO: cores de demonstracao (paleta neutra generica), fontes padrao do motor e nenhum logo. A fase 01 substitui tudo e poe \"exemplo\": false."
+}
